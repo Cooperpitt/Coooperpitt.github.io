@@ -1,0 +1,96 @@
+<!--Cooper Pitt, Southern Illinois University Carbondale, Created 20th November, 2022. Final Day Tested 30th November, 2022-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grommets and Comets</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="Javascript/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        <div class="header">
+            <title>Grommets and Comets</title>
+        </div>
+    </head>
+    <body>
+        <audio controls autoplay loop hidden>
+            <source src="Audio/Walk on the Beach.mp3" type="audio/mpeg">
+        </audio>
+
+        <!--Navigation Menu-->
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Selling.html">Our Boards</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Accessories.html">Accessoires and Clothing</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Board Description.html">Board Description</a></li>
+                <li><a href="Competition.html">Competition Information</a></li>
+            </ul>
+        </nav>
+
+        <div class="Contact">
+            <div class="Place">
+            </div>
+        
+        <h1>Contact Us!</h1>
+        <form name="myform" action="surveydata.html" method="get">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" name="password"><br>
+                <label for="Name">Full Name</label><br>
+                <input type="text" id="Full Name" name="Full Name"><br>
+                <label for="address">Address</label><br>
+                <input type="text" id="Address" name="address"><br>
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city"><br>
+                <label for="State">State</label><br>
+                <input type="text" id="State" name="State"><br>
+                <label for="zip">Zip</label><br>
+                <input type="text" id="Zip" name="Zip"><br>
+                <label for="Phone Number">Phone Number</label><br>
+                <input type="text" id="Phone Number" name="Phone Number"><br>
+                <label for="Creation Date">Creation Date</label><br>
+                <input type="text" id="Creation Date" name="Creation Date"><br>
+                <label for="Comments">Comments</label><br>
+                <input type="text" id="Comments" name="Comments" minlength="50" maxlength="100"><br>
+            
+            <p>Type of Inquiry</p>
+    
+                <input type="radio" id="General" name="Type of Inquiry" value="General">
+                <label for="General">General</label><br>
+                <input type="radio" id="Buying" name="Type of Inquiry" value="Buying">
+                <label for="Buying">Buying</label>
+    
+            <p>Type of Item</p>
+            
+                <input type="radio" id="Board" name="Type of Item" value="Board">
+                <label for="Board">Board</label><br>
+                <input type="radio" id="Gear" name="Type of Item" value="Gear">
+                <label for="Gear">Gear</label><br>
+                <input type="radio" id="Lesson" name="Type of Item" value="Lesson">
+                <label for="Lesson">Lesson</label>
+                <br><br>
+    
+            
+                <input type="submit" name="button" id="button" value="Submit">
+                <input type="reset" name="button" id="button" value="reset">
+            </form>
+        </body>
+    </html>
+         
+    
+    </body>
+    <footer>
+        <h1>Cooper Pitt</h1>
+    </footer>
+</html>

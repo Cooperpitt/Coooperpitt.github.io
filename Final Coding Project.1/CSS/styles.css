@@ -1,0 +1,323 @@
+/*This page is where all of my styles will be */
+
+
+@media only screen and (max-width: 4125px) {
+    #mobile_menu { display: none; }
+}
+@media only screen and (max-width: 959px) {
+    #mobile_menu {display: none; }
+}
+@media only screen and (max-width: 1500px) {
+    #mobile_menu {display: block; }
+    #nav_menu {display: none; }
+    header h2 { font-size: 1.375em;}
+    header h3 {font-size: .8125em; }
+    p {font-size: .875em; }
+    article h1, main h2, aside h2 
+    {font-size: 1em; }
+    aside li {font-size: .875em; }
+}
+
+@media only screen and (max-width: 479px) {
+    #mobile_menu {display: block; }
+    #nav_menu {display: none; }
+    #header_h2 {font-size: 1.375px; }
+    #header_h3 {font-size: 0.8125px; }
+    p {font-size: .875px; }
+    article h1, main h2, aside h2 
+    {font-size: 1em; }
+    aside li {font-size: .875em; }
+}
+
+/*Class Distin gionx */
+/*Index Page Image Settings */
+.main {
+    background-color: white;
+    background-image: url(../Images/Backgrounds/HomePage-Background.jpg);
+    /*background-repeat: repeat; */
+    background-size: cover;
+    color: white;
+    
+    height: 100vh;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.box {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+/*AboutPage Settings */
+.about {
+    background-color: white;
+    background-image: url(../Images/Backgrounds/About-Background.jpg);
+    /*background-repeat: repeat; */
+    color: white;
+    background-repeat: no-repeat;
+    background-image: cover;
+
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 130vh;
+    width: 100%;
+}
+
+.Us {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+
+}
+
+
+/*Accessories Settings */
+.Accessories {
+    background-color: white;
+    background-image: url(../Images/Backgrounds/AccessoriesSurf.jpg);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Gear {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+/*Board Description Settings */
+.Board {
+    background-color: white;
+    background-image: url(../Images/Backgrounds/SurfboardRack.jpg);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    
+    height: 500vh;
+    max-width: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Description {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    
+}
+
+/*Competition Page Settings */
+.Comp {
+    background-color: white;
+    background-image: url(../Images/Backgrounds/surfcomp.jpg);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 850px;
+    max-width: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: black;
+}
+
+.Area {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+/*Contact Page Settings */
+.Contact {
+    background-color: white;
+    background-image: linear-gradient(#e66465, #9198e5);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 175vh;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Place {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+/*Selling Page Settings */
+.Selling {
+    background-color: white;
+    background-image: linear-gradient(white, grey, black);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 385vh;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Description {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: right;
+}
+
+/*Survey Data Settings */
+.Survey {
+    background-color: white;
+    background-image: linear-gradient(#e66465, #9198e5);
+    /*background-repeat: repeat; */
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: vh;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Place {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    
+}
+
+/*Table Commands */
+table, th, td {
+    border: 1px solid transparent
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*This is the code for positioning the images next to each other within the table*/
+
+img {
+    width: 90%;
+    max-width: 350px;
+    position: static;
+    padding: 5px; 
+    margin: 10px
+    }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Responsible for displaying tables next to each other */
+.floatleft { width: 50%; float: left; }
+.floatright {width: 50%; float: right; }
+.container { overflow: hidden; }
+
+
+/*Header style */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+/*Image Transition element*/
+.grow:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#hp {
+    float: right;
+    margin: 0 0 0 15px
+}
+
+#jp {
+    float: right;
+    margin: 0 0 0 15px;
+    height: 95vh;
+}
+
+h1 {
+    font-family: kameron, serif;
+  }
